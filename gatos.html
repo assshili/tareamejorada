@@ -4,14 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <style>
+        .container {
+            position: relative;
+            width: 500px; /* Ancho de la imagen */
+        }
+        .card-img-overlay {
+            position: absolute;
+            top: 50%; /* Centra verticalmente */
+            left: 50%; /* Centra horizontalmente */
+            transform: translate(-50%, -50%);
+            text-align: center; /* Centra el contenido */
+            color: black; /* Color del texto */
+        }
+        .btn {
+            background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
+            padding: 10px 20px; /* Espaciado interno */
+            text-decoration: none; /* Quita el subrayado del enlace */
+            color: white; /* Color del texto del enlace */
+            border: none; /* Quita el borde */
+            border-radius: 5px; /* Borde redondeado */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el enlace */
+        }
+        .btn:hover {
+            background-color: rgba(0, 0, 0, 0.7); /* Cambia el color de fondo al pasar el cursor */
+        }
+    </style>
 </head>
 <body>
-    <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="imagenes/gatoAlex.jpg" alt="Michi Alex">
-        <div class="card-body">
-          <h5 class="card-title">Alex</h5>
-          <a href="alex.html" class="btn btn-primary">Michi Alex</a>
-        </div>
-      </div>
+  <h1>Conoce nuestros rescatados en adopción</h1>
+  <p>Y elige uno para convertir en tu nuevo mejor amigo</p>
+   
+  <div class="container">
+    <img class="card-img-top" src="imagenes/gatoAlex.jpg" alt="Card image" style="width:100%">
+    <div class="card-img-overlay">
+      <h4 class="card-title">Gatito Alex</h4>
+      <a href="alex.html" class="btn btn-primary">Conoce a Alex</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <img class="card-img-top" src="imagenes/gataliz.jfif" alt="Card image" style="width:100%">
+    <div class="card-img-overlay">
+      <h4 class="card-title">Gatita Lizzie</h4>
+      <a href="lizzie.html" class="btn btn-primary">Conoce a Lizzie</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <img class="card-img-top" src="imagenes/manchas.webp" alt="Card image" style="width:100%">
+    <div class="card-img-overlay">
+      <h4 class="card-title">Gatita Manchas</h4>
+      <a href="manchas.html" class="btn btn-primary">Conoce a Manchas</a>
+    </div>
+  </div>
+
 </body>
 </html>
