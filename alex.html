@@ -9,27 +9,96 @@
         body {
             height: 100vh;
             margin-left: 60px;
-            background-color: rgb(254, 230, 255);   
+            background-color: rgb(255, 255, 255);   
             display: flex;  
             align-items: center; 
         }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        td{
+            border-bottom: 1px solid black;
+            padding: 5px;
+        }
+
+        caption{
+            font-size: 18px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
     </style>
 </head>
-<img>
+<body>
     <p style="font-family:Arial, Helvetica, sans-serif; font-size: 15px; position:fixed; top: 20px; right: 20px;"><b>
         <a href="ayuda.html">Inicio ></a>
-        <a href="gatos.html">Volver a Gatos</a>
+        <a href="gatos.html">Volver a Adopta</a>
     </b></p>
     
 
-    <img src="imagenes/gatoAlex.jpg" alt="alex" width="450px" height="400px" style="margin-right: 20px;"></img>
-
-    <ul style="background-color: rgb(145, 29, 168); color: whitesmoke; line-height: 1.5; padding-top: 129px; padding-bottom: 129px; padding-right: 35px; font-family: Arial, Helvetica, sans-serif; list-style-type: none;">
-        <li style="font-size: 20px; text-align: center; padding-bottom: 10px;"><b>Alex</b></li>
-        <li style="font-size: 17px;">Edad: 2 años</li>
-        <li style="font-size: 17px;">Sexo: Macho</li>
-        <li style="font-size: 17px;">Esterilizado: Sí</li>
-        <li style="font-size: 17px;">Nro. chip: 383554020198</li>
-    </ul>
+    <img src="imagenes/gatoAlex.jpg" alt="lizzie" width="450px" height="400px" style="margin-right: 20px;">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            border-bottom: 1px solid black;
+            padding: 5px; 
+        }
+    </style>
+    
+    <div style="display: inline-block;">
+        <table style="float: left; margin-right: 20px;">
+            <caption>Bio</caption>
+            <tr>
+                <td>Nombre</td>
+                <td>Alex</td>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>1,5 años</td>
+            </tr>
+            <tr>
+                <td>Raza</td>
+                <td>Mestizo</td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td>Macho</td>
+            </tr>
+            <tr>
+                <td>Tamaño</td>
+                <td>S</td>
+            </tr>
+        </table>
+        <hr style="border-top: 1px solid black; width: 100%; margin: 0;">
+        
+        <table style="clear: both;">
+            <caption>Más información</caption>
+            <tr>
+                <td>Se adapta a un departamento</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>Convive con niños</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>Convive con perros</td>
+                <td>No se sabe</td>
+            </tr>
+            <tr>
+                <td>Convive con gatos</td>
+                <td>No se sabe</td>
+            </tr>
+            <tr>
+                <td>Nivel de energía</td>
+                <td>Alto</td>
+            </tr>
+        </table>
+        <hr style="border-top: 1px solid black; width: 100%; margin: 0;">
+    </div>
 </body>
 </html>
